@@ -1,8 +1,8 @@
 import "./App.css";
-import TicTacToe from "./components/TicTacToe";
+import Tablero from "./components/Tablero";
 
 function App() {
-  return <TicTacToe />;
+  return <Tablero />;
 }
 
 export default App;
