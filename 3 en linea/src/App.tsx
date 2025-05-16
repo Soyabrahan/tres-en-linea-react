@@ -5,7 +5,9 @@ function App() {
   return (
     <div
       style={{
-        backgroundColor: "#1B1E23",
+        backgroundImage: "url('/background.png')", // <-- así debe ir
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         width: "100vw",
         height: "100vh",
         minHeight: "100vh",
